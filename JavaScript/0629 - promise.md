@@ -49,3 +49,57 @@ promise //
 
 
 ```
+
+# 3. Promise chaining (added on 2 July)
+
+```
+const fetchNumber = new Prommise((resolve, reject) => {
+    setTimeout(() => resolve(1), 1000);
+})
+
+// then은 값을 바로 전달해도 되고 또 다른 비동기인 Promise를 전달해도 된다.
+fetchNumber
+    .then(num => num * 2)
+    .then(num => num * 3)
+    .then(num => {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => resolve(num - 1), 1000);
+    })
+})
+.then(num => console.log(num));
+```
+
+# 4. Error Handling
+
+```
+const getHen = () =>
+    new Promise((resolve ,reject) => {
+        setTimeout(() => resolve('🐓'), 1000);
+});
+const getEgg = hen =>
+    new Promise((resolve, reject) => {
+        setTimeout(() => reject(new Error(`error! ${hen} => 🥚`)), 1000);
+});
+const cook = egg =>
+    new Promise((resolve, reject) => {
+        setTimeout(() => resolve(`${egg} => 🍳`), 1000);
+});
+
+getHen()
+    .then(hen => getEgg(hen))
+    .then(egg => cook(egg))
+    .then(meal => console.log(meal));
+
+// 한 가지만 받아서 그대로 전달하는 경우에는 생략 가능.
+// then에서 받아온 value를 함수에 암묵적으로 전달해서 호출 가능.
+getHen() //
+    .then(getEgg)
+    .catch(error => {
+        return '🥖';
+    })
+    .then(cook)
+    .then(console.log)
+    .catch(console.log);
+// result : 🥖 => 🍳
+// 계란을 받아오는 것은 실패했지만 빵을 대신 전달해주었기 때문에 promise chain이 실패하지 않음.
+```
