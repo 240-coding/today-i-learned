@@ -4,3 +4,8 @@
 - [2. Functions (1)](https://velog.io/@240-coding/2.-Functions-2)
 - [2. Functions (2)](https://velog.io/@240-coding/2.-Functions-2-oa1d0jsc)
 - [2. Functions (3)](https://velog.io/@240-coding/2.-Functions-3-%EC%9D%B5%EB%AA%85%ED%95%A8%EC%88%98)
+- [2. Functions (4)](https://velog.io/@240-coding/2.-Functions-4)
+- [3. Variables and Simple Type (1)](https://velog.io/@240-coding/3.-Variables-and-Simple-Types-1)
+- [3. Variables and Simple Type (2)](https://velog.io/@240-coding/3.-Variables-and-Simple-Types-2)
+- [3. Variables and Simple Type (3)](https://velog.io/@240-coding/3.-Variables-and-Simple-Types-3)
+- [3. Variables and Simple Type (4) - Built-In Simple Types](https://velog.io/@240-coding/3.-Variables-and-Simple-Types-4-Built-In-Simple-Types)
