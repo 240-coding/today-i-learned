@@ -9,3 +9,5 @@
 - [3. Variables and Simple Type (2)](https://velog.io/@240-coding/3.-Variables-and-Simple-Types-2)
 - [3. Variables and Simple Type (3)](https://velog.io/@240-coding/3.-Variables-and-Simple-Types-3)
 - [3. Variables and Simple Type (4) - Built-In Simple Types](https://velog.io/@240-coding/3.-Variables-and-Simple-Types-4-Built-In-Simple-Types)
+- [3. Variables and Simple Type (5) - Built-In Simple Types (String)](https://velog.io/@240-coding/3.-Variables-and-Simple-Type-5-Built-In-Simple-Types-String)
+- [3. Variables and Simple Type (6) - Built-In Simple Types (Range, Tuple)](https://velog.io/@240-coding/3.-Variables-and-Simple-Type-6-Built-In-Simple-Types-Range-Tuple)
