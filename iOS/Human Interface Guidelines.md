@@ -4,3 +4,4 @@
 ## Foundations
 ### Accessibility
 - [Accessibility (1)](https://velog.io/@240-coding/Foundations-Accessibility-1)
+- [Accessibility (2) - Interactions](https://velog.io/@240-coding/Foundations-Accessibility-2)
